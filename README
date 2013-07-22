@@ -1,0 +1,11 @@
+SearchAmplius! :)
+(c) 2013 Bacon Coding Company, LLC
+
+Thanks to:
+- EDA Tweaks
+- David Murray
+- Dustin Howett
+- Guillermo Moran
+- Max Shavrick
+
+To compile cydia/, clone cydia.git and get the sysroot or place decent apt-pkg headers somewhere. The rest is fine with `make`.

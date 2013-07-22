@@ -1,0 +1,1 @@
+All plugins should have a timeout of 2 seconds.

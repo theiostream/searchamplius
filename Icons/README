@@ -1,0 +1,1 @@
+All images were extracted from an iPhone 4S's icon@2x.png's with 'scp', converted to regular PNG using 'ipin.py' and resized to 50x50/100x100 using ImageMagick's 'convert' tool.

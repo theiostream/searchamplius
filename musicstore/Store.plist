@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "--//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>Music.png</string>
+		<key>label</key>
+		<string>iTunes Store</string>
+	</dict>
+
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Max Results</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>am.theiostre.spotlightplus.musicstore</string>
+			<key>default</key>
+			<integer>5</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>label</key>
+			<string>Limit</string>
+			<key>key</key>
+			<string>Limit</string>
+			<key>validTitles</key>
+			<array>
+				<string>5</string>
+				<string>10</string>
+				<string>15</string>
+				<string>20</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>15</integer>
+				<integer>20</integer>
+			</array>
+		</dict>
+	</array>
+
+	<key>title</key>
+	<string>iTunes Store</string>
+</dict>
+</plist>

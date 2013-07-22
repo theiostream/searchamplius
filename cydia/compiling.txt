@@ -1,0 +1,19 @@
+This could be better, I know.
+
+$ git clone git://git.saurik.com/cydia.git
+$ cd cydia
+$ ./sysroot.sh # protip: s/tar/gnutar/
+$ vim ./sysroot/usr/include/apt-pkg/macros.h
+
+Replace:
+#define ABS ...
+
+With:
+#ifndef ABS
+#define ABS ...
+#endif
+
+$ cd ..
+
+And now, just do whatever you want. You can delete everything from cydia/ except, of
+course, 'sysroot/'.
