@@ -12,11 +12,11 @@
 #include <objc/runtime.h>
 
 static NSString *NSStringURLEncode(NSString *string) {
-	return (NSString *)CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)string, NULL, CFSTR("!*'();:@&;=+$,/?%#[]"), kCFStringEncodingUTF8);
+	return [(NSString *)CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)string, NULL, CFSTR("!*'();:@&;=+$,/?%#[]"), kCFStringEncodingUTF8) autorelease];
 }
 
 @interface TLStocksDatastore : NSObject <SPSearchDatastore, TLSymbolValidatorDelegate> {
-	SDActor *actor;
+	SDSearchQuery *actor;
 	//BOOL usingInternet;
 }
 @end

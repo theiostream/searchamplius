@@ -161,10 +161,12 @@
 }
 
 - (void)dealloc {
-	delete[] $cache;
+	NSLog(@"IS IT DEALLOC?!?!?!");
+
+	delete $cache;
 	$cache = NULL;
 
-	delete[] $records;
+	delete $records;
 	$records = NULL;
 
 	[super dealloc];

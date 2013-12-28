@@ -123,7 +123,7 @@ static NSString *TLCleanUpState(NSString *state) {
 		SPSearchResult *result = [[[SPSearchResult alloc] init] autorelease];
 		[result setTitle:[city name]];
 		[result setSummary:TLCleanUpState([city state])];
-		[result setUrl:[NSString stringWithFormat:@"http://m.weather.com/right_now/%@", [city locationID]]];
+		[result setUrl:[NSString stringWithFormat:@"http://m.weather.com/weather/today/%@", [city locationID]]];
 		//[result setIdentifier:strtoull([[city woeid] UTF8String], NULL, 0)];
 		
 		[results addObject:result];

@@ -4,7 +4,7 @@ TARGET = ::4.3
 
 include theos/makefiles/common.mk
 
-TWEAK_NAME = extendedwatcher
+#TWEAK_NAME = extendedwatcher
 extendedwatcher_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
