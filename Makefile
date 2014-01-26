@@ -2,6 +2,7 @@ SUBPROJECTS = calculator appstore musicstore weather stocks maps cydia youtube #
 
 TARGET = ::4.3
 
+export ARCHS = armv7 arm64
 include theos/makefiles/common.mk
 
 #TWEAK_NAME = extendedwatcher
